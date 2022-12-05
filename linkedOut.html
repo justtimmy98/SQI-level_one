@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedOut</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Rowdies:wght@300&family=Ubuntu:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style>
+.logo{
+    font-size: 25px;
+    /* background-color: cadetblue; */
+}
+.nav{
+    background-color: white;
+    padding-left: 50px;
+}
+.overlay{
+               background-color:rgb(0,0,0,0.6);
+               padding: 30px;
+               position: fixed;
+               top: 0px;
+               left: 0px;
+               right: 0px;
+               bottom: 0px;
+               display: flex;
+           }
+.card{
+               background-color: white;
+               width: 400px;
+               padding: 20px;
+               margin:auto;
+               overflow-y: scroll;
+               height:500px ;
+               overflow: hidden;
+               border-radius: 20px;
+           }
+           .post{
+               justify-content: space-between;
+               display: flex;
+               color: #000000e6;
+               font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+               font-size: 16px;
+           }
+           .profile{
+               width: 50px;
+               height: 50px;
+               border-radius: 100%;
+               overflow: hidden;
+           }
+           .text{
+               width: 400px;
+               max-height: 120px;
+               padding-top: 30px;
+           }
+    </style>
+    <main class="overlay">
+        <main class="card">
+              <div>
+                  <p class="post">Create a post <span>X</span></p>
+                  <div style="width: 100%;background-color: #000000e6;font-size: 5px;"></div>
+              </div>
+              <div style="display: flex;">
+                  <div class="profile">
+                      <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80">
+                  </div>
+                <div>
+                        <strong style="font-family: 'Roboto', sans-serif;padding-top: 20px;" 
+                     >Adesanya Timileyin</strong>
+                     <div style="margin-left:4px">
+                        <button style="padding: 5px 16px; background-color: #ffffff00 ;color: #00000099;font-size: 14px;border-radius: 10px;font-family: 'Roboto', sans-serif;padding-top:5px"><i class="fa-solid fa-earth-americas"></i>&nbsp; Anyone</button>
+                    </div>
+                </div>
+              </div>  
+                <div class="text">
+                    <input type="text" placeholder=" What do you want to talk about" style="width: 400px;height: 100px; border: none;" >
+                </div>
+        </main>
+    </main>
+    <nav class="nav">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/40px-LinkedIn_logo_initials.png" alt="">
+            </div>
+            <div>
+                <input type="text" placeholder="Search">
+            </div>
+    </nav>
+</body>
+</html>
