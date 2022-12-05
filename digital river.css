@@ -1,0 +1,56 @@
+.blue-nav{
+    background-color: #080b2d;
+    font-size: 14px;
+    justify-content: space-between;
+    display: flex;
+    padding: 5px 5px;
+}
+.nav-btn{
+    background-color: blue;
+    color: cyan;
+    font-size: 14px;
+    padding: 2px 2px;
+    border-radius: 3px;
+    text-decoration: none;
+    /* overflow: hidden; */
+}
+.blog{
+    background-color: #080b2d;
+    font-size: 14px;
+    border: #080b2d;
+    color: grey;
+    text-decoration: none;
+}
+.blog:hover{
+color: white;
+}
+.docs{
+     background-color: #080b2d;
+    font-size: 14px;
+    border: #080b2d;
+    color: grey;
+    text-decoration: none;
+}
+.docs:hover{
+    color: white;
+}
+.sales{
+    background-color: #080b2d;
+    font-size: 14px;
+    border: #080b2d;
+    color: grey;
+    text-decoration: none;
+}
+.sales:hover{
+    color: white;
+}
+.get{
+    background-color: #080b2d;
+    font-size: 14px;
+    border: #080b2d;
+    color: grey;
+    text-decoration: none;
+}
+.get:hover{
+    color: white;
+}
