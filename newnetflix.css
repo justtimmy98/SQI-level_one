@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/0678255b-ecfd-4775-999a-0680d539f07c/842b1f38-3a00-483c-9bfc-4611f4275334/NG-en-20221128-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    width: 100%;
+    height: 700px;
+}
+.firstmaincard{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+ nav button{
+    background-color: #e50914;
+    border-radius: 5px;
+    width: 84.19px;
+    height: 39px;
+    color: white;
+    font: 20px;
+    font-family: sans-serif;
+}
+.rata h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.rata p{
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    /* margin-top: -10px; */
+}
+.p2{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+.rata{
+    padding-top: 60px;
+    height: 465px;
+}
+.ip{
+    padding: 10px 10px 10px;
+    font-size: 16px;
+    width: 425px;
+    height: 40px;
+}
+.btn{
+     width: 185px;
+     height: 63px;
+     /* padding: 25px 16px; */
+     /* margin-bottom: 6px; */
+     font-family: sans-serif;
+     font-size: 24px;
+     /* margin-top: 5px; */
+     background-color: #e50914;
+     border-radius: 5px;
+     color: white;
+
+}
+.firsttv{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(0,0,0);
+    margin-top: 10px;
+    padding: 35px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.firstcard{
+    width: 48%;
+    padding: 25px;
+    /* align-items: center; */
+}
+.firstcard h1{
+    text-align: none;
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+.firstcard p{
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+.secondcard{
+    width: 50%;
+}
+.justthere{
+    background-color: rgb(0,0,0);
+    margin-top: 10px;
+    padding: 35px;
+    height: 210px;
+    align-content: center;
+}
+.questions{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+.last{
+    margin-top: 10px;
+    height: auto;
+    background-color: rgb(0,0,0);
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 25px;
+}
+.fre{
+    padding-top: 50px;
+    text-align: center;
+}
+.what{
+    padding-left: 200px;
+    margin-top: 5px;
+    
+}
+.wh{
+    width: 80%;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 14px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    color: #fff;
+    transition-property: display-block, width;
+    transition-duration:2.5s ;
+    transition-timing-function: ease-out;
+}
+.what:focus-within .answer{
+    display: block;
+    width: 72.5%;
+}
+.what .as{
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+.plus{
+    background-color: none;
+    border-color: rgb(34, 34, 34);
+    background-color: rgb(34, 34, 34);
+}
+.answer{
+    padding-left: 39px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-right: 37px;
+    background-color: rgb(34, 34, 34);
+    display: none;
+    margin-left: 2px;
+    width: 600px;
+}
+.miscellenous{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.last-last{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0,0,0);
+    margin-top: 8px;
+    padding: 73px 180px 55px 180px;
+}
+.last-last a{
+    color: rgb(115, 115, 115) ;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.last-last a:hover{
+    text-decoration: underline;
+}
+.etc{
+     justify-content: space-around;
+     margin-top: 15px ;
+     width: 68%;
+     height: 75%;
+     /* padding: 100px 250px; */
+}
+.etc a{
+    font-size: 13px;
+    /* margin: 15px 45px 15px 0px; */
+}

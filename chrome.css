@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(34, 34, 34);
+}
+nav{
+    justify-items: right;
+    justify-content: right;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+a:hover{
+    text-decoration: underline;
+}
+p{
+    margin-right: 13px;
+}
+#ic{
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.icon:hover{
+    border-radius: 100%;
+    background-color: gray;
+}
+.icon{
+    height: 25px;
+    width: 25px;
+    align-items: center;
+}
+.gg{
+    align-content: center;
+    margin: 27px 80px -36px 80px;
+    justify-content: center;
+    text-align: center;
+}
+.search{
+    width: 48%;
+    height: 45px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 16px;
+    margin-bottom: 12px;
+    text-align: center;
+    margin-left: 315px;
+    margin-top: -5px;
+}input{
+    width: 80%;
+    height: 95%;
+    border-color: none;
+}
+input::after{
+    border-color: none;
+}
+.main-chick{
+    width: 52%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-left: 300px;
+    /* padding: 15%; */
+}
+.side-chick{
+    width: 30%;
+    background-color: greenyellow;
+    height: 45%;
+    margin: 5px;
+    text-align: center;
+}
