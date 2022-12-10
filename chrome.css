@@ -41,6 +41,8 @@ p{
     margin: 27px 80px -36px 80px;
     justify-content: center;
     text-align: center;
+    font-size: 30%;
+    color: #fff;
 }
 .search{
     width: 48%;
