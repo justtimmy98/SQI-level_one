@@ -3,78 +3,189 @@
     padding: 0px;
 }
 body{
-    background-color: rgb(34, 34, 34);
+    background-image: url("https://metro.co.uk/wp-content/uploads/2019/09/PRI_83098591.jpg?quality=90&strip=all");
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
 }
 nav{
-    justify-items: right;
-    justify-content: right;
+    margin-left: 20px;
     display: flex;
     margin: 20px;
     align-items: center;
+    width: 10%;
+    justify-content: space-between;
+    align-self: right;
 }
-a{
+.a{
     text-decoration: none;
     color: white;
     font-size: 15px;
+    display: block;
 }
-a:hover{
+.a:hover{
     text-decoration: underline;
 }
 p{
     margin-right: 13px;
 }
-#ic{
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-}
 .icon:hover{
     border-radius: 100%;
     background-color: gray;
+    color: white;
 }
 .icon{
     height: 25px;
     width: 25px;
     align-items: center;
+    border: none;
+    background-color: none;
+    color: white;
 }
-.gg{
-    align-content: center;
-    margin: 27px 80px -36px 80px;
-    justify-content: center;
-    text-align: center;
-    font-size: 30%;
-    color: #fff;
-}
-.search{
-    width: 48%;
-    height: 45px;
+.menu:focus-within .menublabla{
+    position: relative;
+    top: 20px;
+    right: 2px;
     background-color: white;
-    border-radius: 20px;
-    margin-left: 16px;
-    margin-bottom: 12px;
-    text-align: center;
-    margin-left: 315px;
-    margin-top: -5px;
-}input{
-    width: 80%;
-    height: 95%;
-    border-color: none;
+    visibility: visible;
+    height: 400px;
 }
-input::after{
-    border-color: none;
+.menu{
+    position: absolute;
+    top: 30px;
+    right: 30px;
 }
-.main-chick{
-    width: 52%;
-    height: 300px;
+.menublabla{
+    width: 400px;
+    height: 700px;
+    visibility: hidden;
+    overflow-y: scroll;
+}    
+.gg{
+    width: 310px;
+    margin: 100px 0px 45px 540px;
+}
+.searchbar{
+    color: black;
+    font-size: 16px;
+    background-color: white;
+    font-weight: bold;
+    width: fit-content;
+    align-items: center;
+    margin-left: 430px;
+    border-radius: 50px;
+    display: flex;
+    padding: 5px;
+    height: fit-content;
+}
+.theinput{
+    width: 500px;
+    height: 40px;
+    outline: 0;
+    border: none;
+    display: inline;
+    color: black;
+    font-family: sans-serif;
+}
+.dropped{
+    display: none;
+    background-color: white;
+    height: fit-content;
+    margin-top: 0px;
+    border-radius: 10px ;
+    position: absolute;
+}
+.dropper{
+    position: relative;
+    top: 1px;
+}
+.dropper:focus-within .dropped{
+    display: block;
+    padding: 5px;
+    height: fit-content;
+    width: 500px;
+}
+.maincard{
+    width: 600px;
+    height: 250px;
+    /* background-color: white; */
+    margin-left: 410px;
+    margin-top: 15px;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
-    margin-left: 300px;
-    /* padding: 15%; */
 }
-.side-chick{
-    width: 30%;
-    background-color: greenyellow;
-    height: 45%;
-    margin: 5px;
+.subcard{
+    width: 88px;
+    height: 90px;
+    padding: 10px;
     text-align: center;
+    display: flex;
+    pointer: pointer ;
 }
+.subimg1{
+    width: 35px;
+    height: 35px;
+    
+}
+.subp{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.subcard:hover .ellips{
+   visibility: visible;
+   height: 10px;
+}
+.ellips{
+    height: 12px;
+    color: white;
+    visibility: hidden;
+    width: fit-content;
+    border: none;
+    background-color: none;
+    padding: 10px 10px;
+    position: absolute;
+}
+.ellips:hover{
+    background-color: rgba(255, 255, 255, 0.062);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: -17px;
+}
+.rr:hover {
+    background-color: rgba(255, 255, 255, 0.116);
+    width: fit-content;
+    border-radius: 15px;
+    height: 95px;
+}
+.insideman{
+    background-color: white;
+    padding: 15px;
+    width: 100px;
+    visibility: hidden;
+    border-radius: 10%;
+}
+.insideman p{
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: start;
+    margin-top: 10px;
+    font-size: 13px;
+    display: block;
+}
+.ellips:focus-within .insideman{
+    visibility: visible;
+    position:relative 
+    top 0px;
+    right: 0px;
+}
+.insideman p:hover{
+    background-color: rgba(0, 0, 0, 0.178);
+}
+
