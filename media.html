@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/8a67cb8ed8.js" crossorigin="anonymous"></script>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        ul{
+            width: 75%;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav img{
+            width: 25%;
+        }
+        li{
+            display: flex;
+            font-size: 19px;
+            font-weight: 550;
+            font-family: sans-serif;
+            padding: 10px 20px;
+        }
+        .btn{
+            display: none;
+        }
+        @media (max-width:773px) {
+            ul{
+                display: none;
+            }
+            .btn{
+                display: block;
+            }
+            .mobile{
+                display: none;
+                background-color: black;
+                color: white;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: -120px;
+                transition: all 5s;
+            }
+            .btn:focus-within .mobile{
+                top: -20px;
+                display: block;
+            }
+            .btn li{
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="https://spring.io/images/spring-logo-2022-93b99aee11ba10c57283810ff6f7f500.svg" alt="">
+        <ul>
+            <li>Why spring</li>
+            <li>Learn</li>
+            <li>Project</li>
+            <li> Training</li>
+            <li>Support</li>
+            <li>Community</li>
+        </ul>
+        <div class="btn">
+            <button><i class="fa fa-bars"></i></button>
+            <ul class="mobile">
+                <li>Why spring</li>
+                <li>Learn</li>
+                <li>Project</li>
+                <li> Training</li>
+                <li>Support</li>
+                <li>Community</li>
+            </ul>
+        </div>
+        
+    </nav>
+</body>
+</html>

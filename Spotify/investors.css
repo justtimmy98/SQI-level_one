@@ -1,0 +1,569 @@
+.spimg{
+    width: 18%;
+    justify-content: left;
+}
+.sdning{
+    width: 18%;
+}
+nav{
+    background-color: rgb(46,72,184);
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    box-sizing: border-box;
+    z-index: 1;
+    padding: 0px 50px;
+}
+.nava{
+    color: white;
+    font-style: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.nava:hover{
+    text-decoration: underline;
+}
+.navdrp{
+    margin-right: 25px;
+    position: relative;
+}
+.navdrp:hover .contnt{
+    display: block;
+}
+.contnt{
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    display: none;
+    top: 30px;
+}
+.contnt p{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.884);
+    font-family: 'Roboto', sans-serif;
+}
+.contnt p:hover{
+    color: rgb(46,72,184);
+    cursor: pointer;
+}
+.part1{
+    background-image: linear-gradient(to bottom, rgb(48,77,179), rgb(74,143,126));
+    height: fit-content;
+    padding: 80px 0px 0px 0px;
+    overflow-x: hidden;
+    margin-bottom: 30px;
+}
+.part1 h1{
+    font-size: 100px;
+    color: white;
+    line-height:90px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 45px;
+}
+.part1 p{
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: sans-serif;
+    margin-top: 18px;
+    width: 420px;
+}
+.part1 h3{
+    font-weight: 700;
+    font-family: sans-serif;
+    color:white;
+}
+.icu{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+.ispp{
+    width: 38%; 
+    border-right: 1px solid white; 
+    padding: 50px 10px;
+}
+.ispp h2{
+    font-size: 51px;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 160px;
+}
+.isps h2{
+    font-size: 51px;
+    color: white;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.ispp button{
+    padding: 11px 60px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 0.5px solid white;
+    font-size: 16px;
+    color: white;
+    margin-left: 160px;
+}
+.isps button{
+    padding: 11px 60px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 0.5px solid white;
+    font-size: 16px;
+    color: white;
+}
+.isps{
+    width: 28%; 
+    border-right: 1px solid white; 
+    padding:20px 0px 0px 50px;
+}
+.part2{
+    width: 100%;
+    height: fit-content;
+    background-image: linear-gradient(to bottom, rgb(255,255,255), rgb(115,68,247));
+    padding: 70px 50px 280px 50px;
+}
+.part2 h1{
+    font-size: 120px;
+    line-height: 90px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.cpo{
+    width: 25%;
+    font-size: 14px;
+    line-height: 21px;
+    color: black;
+    font-family: "roboto";
+    font-weight: 400;
+    margin-top: 40px;
+}
+.viw{
+    width: 18%;
+    margin-top: 30px;
+}
+.viw a{
+    font-size: 14px;
+    line-height: 14px;
+    color:#000000;
+    text-decoration: none;
+    font-family: "roboto";
+    display: block;
+    margin-bottom: 25px;
+}
+.viwp{
+    display:block;
+    font-size: 14.5px;
+    color: rgb(142,136,158);
+    font-family: arial;
+}
+.partpic{
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: fit-content;
+    margin-left: 20px;
+}
+.ppcnt{
+    width: 30%;
+    background-color:white;
+    height: 470px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.11);
+    margin-top: 30px;
+}
+.ppcnt img,.onebx img{
+    height: 45%;
+}
+.firstp{
+    color: #4100F5;
+    line-height: 21px;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size:14px;
+    margin-top: 10px;
+}
+.ppcnt a,.onebx a{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+    font-family: "roboto";
+    text-decoration: none;
+    color:black;
+}
+.ppcnt a:hover{
+    color: #4100F5;
+}
+.lastp{
+    color: #6C6C6C;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 16px 0px 12px 0px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.partpic button{
+    background-color: black;
+    color:white;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    padding: 13px 40px;
+    border-radius: 24px;
+    margin-top: 80px;
+    font-family: sans-serif;
+}
+.partpic button:hover{
+    background-color: white;
+    color:black;
+    font-weight: 400;
+    font-family: "roboto";
+}
+.part3{
+    background-image: linear-gradient(to bottom, rgb(255,255,255), rgb(107,165,148));
+    width: 100%;
+    height: fit-content;
+    padding: 70px 28px 280px 50px;
+}
+.part3 h1{
+    font-size: 120px;
+    line-height: 90px;
+    font-weight: 700;
+    font-family: sans-serif;
+    width: 25%;
+}
+.boxcnt{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.171);
+    box-sizing: border-box;
+}
+.thhh{
+    width:76%; 
+    margin-top: 40px;
+}
+.boxcnt a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    line-height:27px;
+    font-weight: 700;
+    vertical-align: baseline;
+}
+.part4{
+    width: 100%;
+    height: fit-content;
+    padding: 70px 28px 0px 50px;
+    background-image: linear-gradient(to bottom, rgb(255,255,255), rgb(45,70,185));
+}
+.part4 h1{
+    font-size: 120px;
+    line-height: 90px;
+    font-weight: 700;
+    font-family: sans-serif;
+    width: 25%;
+}
+.oner h2{
+    font-size: 50px;
+    line-height: 50px;
+    font-family: "roboto";
+    margin:24px 0px 16px;
+    width: 62%;
+    font-weight: 700;
+    margin-left: 310px;
+    
+}
+.po{
+    font-size: 17.5px;
+    line-height: 27px;
+    margin: 18px 0px;
+    font-family: "roboto";
+    width: 64%;
+    margin-left: 310px;
+}
+.onebx{
+    width: 29%;
+    background-color:white;
+    height: 340px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.11);
+    margin-top: 30px;
+}
+.onebx img{
+    height: 70%;
+}
+.dnp{
+    display: flex;
+}
+.prt4c{
+    width: 55%;
+    height: 410px;
+    padding: 80px ;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+.prt4c h4{
+    font-size: 28px;
+    line-height: 28px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.prt4c input{
+    width: 100%;
+    font-size: 13px;
+    padding: 15px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+    margin-top: 15px;
+}
+.prt4c input::placeholder{
+    color: white;
+}
+.prt4c label{
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+.chb input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 19px;
+}
+.chb{
+    width: fit-content;
+    height: fit-content;
+}
+.chb:focus-within{
+    border: 1px solid dotted white;
+}
+.prtbo{
+    padding: 12px 55px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: white;
+    border: none;
+    outline: none;
+    margin-top: 27px;
+    color: blue;
+    font-family: sans-serif;
+}
+.prtbo:hover{
+    background-color: #000000;
+    color: white;
+    font-weight: 700;
+}
+.prt4d{
+    width: 45%;
+    height: 330px;
+    padding: 100px 100px 30px 100px ;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    margin-top: 90px;
+}
+.prt4d h4{
+    font-size: 28px;
+    line-height: 28px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.prt4d p{
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.banci{
+    display: flex;
+    flex-wrap: wrap;
+}
+.scd{
+    display: flex;
+}
+.lastm{
+    margin-top: 30px;
+    width: 45%;
+    display: flex;
+}
+.last a:hover{
+    color: #1ED760;
+    text-decoration: none;
+}
+.last p{
+    font-size: 13px;
+    color: #B3B3B3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-bottom: -2px;
+}
+.last a{
+    display: block;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    text-decoration:none;
+    margin-top: 13px;
+}
+.last button{
+    padding: 10px 15px;
+    border-radius: 100%;
+    border: none;
+    color: white;
+    background-color: rgb(41,41,41);
+}
+.lastb button:hover{
+    background-color: rgba(255, 255, 255, 0.205);
+}
+.last{
+    align-items: flex-start;
+    padding-bottom: 20px;
+    background-color: rgb(0,0,0);
+    display: flex;
+    padding: 60px 80px;
+}
+.lastb{
+    width: 18%;
+    text-align: right;
+}
+.last a:hover{
+    text-decoration: underline;
+}
+.ben{
+    padding: 0px 50px; 
+    box-sizing: border-box; 
+    margin-bottom: 50px;
+}
+.part4b{
+    width: 80%;
+}
+.spimg{
+    margin-right: 20px;
+}
+.nav{
+    position: fixed;
+    top: 0px;
+    /* padding-right: 20px; */
+}
+@media (max-width:430px) {
+    .navdrp{
+        display: none;
+    }
+    .part1 h1,.part2 h1,.part3 h1,.part4 h1{
+        font-size: 80px;
+        line-height: 60px;
+    }
+    .oner h2,.po{
+        margin-left: 0px;
+    }
+    .scd{
+        display: list-item;
+    }
+    .dnp{
+        display: list-item;
+    }
+    .isps,.ispp{
+        border-right: none;
+        border-bottom: 1px solid white;
+    }
+    .cpo{
+        width: 92%;
+        /* line-height: 0px; */
+    }
+    .ppcnt{
+        display: block;
+        min-width: 100%;
+        height: fit-content;
+    }
+    .part1,.part2,.part3,.part4{
+        padding: 70px 10px 280px 10px;
+        height: fit-content;
+    }
+    .ispp,.isps{
+        width: 100%;
+    }
+    .isps,.ispp{
+        padding: 50px 10px;
+        text-align: center;
+    }
+    .ispp h2{
+        margin-left: 0px;
+    }
+    .ispp button{
+        margin-left: 0px;
+    }
+    .thhh{
+        width: 100%;
+    }
+    .viw{
+        width: 50%;
+    }
+    .lastm{
+        display: list-item;
+    }
+    .last{
+        display: list-item;
+        padding: 60px 20px;
+    }
+    .lamp{
+        margin-top: 15px;
+    }
+    .lamp p{
+        margin-top: 25px;
+    } 
+    .lastb button{
+        display: block;
+        margin: 10px;
+    }
+    .lastb{
+        justify-content: right;
+        align-items: flex-start;
+        margin-top: 30px;
+        display: flex;
+    }
+    .ben{
+        padding: 0px 10px;
+    }
+    .onebx{
+        width: 94%;
+    }
+    .onebxe{
+        flex-wrap: wrap;
+    }
+    .part4b{
+        width: 100%;
+        padding: 0px 20px;
+    }
+    .part4b h2{
+        width: 100%;
+    }
+    .po{
+        width: 100%;
+    }
+    .spimg{
+        width: 60%;
+    }
+    .prt4c,.prt4d{
+        min-width: 100%;
+        border-top: 1px solid white;
+        border-left: none;
+        border-right: none;
+        height: fit-content;
+    }
+    .prt4c,.prt4d{
+        padding: 50px 40px 30px 40px ;
+    }
+}

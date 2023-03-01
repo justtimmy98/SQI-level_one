@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(jobs.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 30px;
+}
+
+.topbar .navbar {
+    display: flex;
+    align-items: center;
+}
+
+.topbar .navbar ul {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+}
+
+.topbar .navbar ul li {
+    display: inline-block;
+    
+}
+
+.topbar .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topbar .logo img {
+    width: 110px;
+}
+.pre {
+    margin-left: 80px;
+}
+.marq{
+        height: 600px;
+        margin-left: 700px;
+    }
+
+    .contain1{
+        width: 400px;
+        /* border: 1px solid red; */
+        background-color: blueviolet;
+        padding: 10px 15px;
+    }
+    .contain2{
+        /* border: 1px solid red; */
+        background-color:aquamarine;
+        margin-left: 250px;
+        padding: 10px 15px;
+        width: 400px;
+    }
+    .contain3{
+        /* border: 1px solid red; */
+        background-color:darkturquoise;
+        /* margin-left: 250px; */
+        padding: 10px 15px;
+        width: 400px;
+    }
+    .contain4{
+        /* border: 1px solid red; */
+        background-color:crimson;
+        margin-left: 250px;
+        padding: 10px 15px;
+        width: 400px;
+    }
+    .contain5{
+        /* border: 1px solid red; */
+        background-color:chartreuse;
+        /* margin-left: 250px; */
+        padding: 10px 15px;
+        width: 400px;
+    }
+    
+    .marq:hover .contain1{
+        
+    }
+    .text-down{
+        margin-top: -20px;
+        font-size:20px;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+    }

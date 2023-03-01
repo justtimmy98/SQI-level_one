@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.p{
+    font-family: sans-serif;
+    font-size: 14px;
+    /* text-align: center; */
+    font-weight: 750;
+    line-height: 20px;
+    vertical-align: baseline;
+}
+.part1{
+    padding-top: 40px;
+    text-align: center;
+}
+.fb{
+    width: 470px;
+    padding: 13px 0px;
+    color: rgb(232,242,254);
+    font-size: 14.5px;
+    font-weight: 510;
+    font-family: "roboto";
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    background-color: rgb(24,119,242);
+    border-radius: 25px;
+}
+.fb:hover{
+    border: 1px solid rgba(0, 0, 0, 0.61);
+}
+.ap{
+    width: 470px;
+    padding: 13px 0px;
+    color: rgb(232,242,254);
+    font-size: 14.5px;
+    font-weight: 510;
+    font-family: "roboto";
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    background-color: black;
+    border-radius: 25px;
+}
+.ap:hover{
+    border: 1px solid rgba(0, 0, 0, 0.61);
+}
+.go:hover{
+    border: 1px solid rgba(0, 0, 0, 0.61);
+}
+.go{
+    width: 470px;
+    padding: 13px 0px;
+    color: rgb(106,106,106);
+    font-size: 14.5px;
+    font-weight: 510;
+    font-family: "roboto";
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    background-color: white;
+    border-radius: 25px;
+}
+.spc{
+    background-color: rgb(217,218,220);
+    height: 1.3px;
+    width: 210px;
+    margin-top: 5px;
+}
+.rc{
+    margin-left: 515px;
+}
+.rg{
+    margin-left: 403px;
+}
+.part2{
+    text-align: center;
+}
+label{
+    width: 470px;
+    text-align: left;
+}
+input{
+    width: 470px;
+    font-size: 16px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+input:focus{
+    outline: 2px solid black;
+}
+.form{
+    width: 470px;
+    height: max-content;
+    position: relative;
+    margin: auto;
+    margin-top: 15px;
+}
+.form a{
+    color: black;
+    margin-top: 10px;
+}
+.form a:hover{
+    color:green;
+}
+.bx{
+    width: fit-content;
+    padding: 0px;
+    border: none;
+    border-radius: 2px;
+}
+.bx input{
+    width: 30px;
+    margin: 0px;
+    outline: none;
+}
+.bx:focus-within{
+    background-color: rgb(31, 223, 100);
+    border: 1px solid black;
+}
+.logs{
+    padding: 10px 30px;
+    font-size: 16px;
+    color: black;
+    background-color: rgb(31,223,100);
+    border: none;
+    border-radius: 20px;
+    font-weight: 510;
+    transition: all 0.5s;
+}
+.ze{
+    width: 100%;
+    height: 1.3px;
+    background-color: rgb(217,218,220);
+    margin-top: 10px;
+}
+.rde{
+    font-family:Times, serif;
+    font-weight: 620;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.logs:hover{
+    transform: scale(1.04);
+}
+@media (max-width:430px) {
+    .form{
+        width: 90%;
+    }
+    input{
+        width: 90%;
+    }
+    label{
+        width: 90%;
+    }
+    .fb{
+        width:90%;
+    }
+    .ap{
+        width:90%;
+    }
+    .go{
+        width:90%;
+    }
+    .spc{
+        width:38%;
+    }
+}

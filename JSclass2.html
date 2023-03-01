@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main id="ram"></main>
+    <input value="Rammm" type="text">
+</body>
+</html>
+
+<script>
+    // Arrays
+    // Array index start from zero || while the lenght start from one
+    let collections = ["Daniel", "Samuel", "David", "Sunday"]
+    console.log(collections);
+    console.log(collections [0]);
+    // DOM(Document Object Model)
+    document.getElementById("ram").innerHTML = "Ram head"
+    document.getElementById("ram").style.backgroundColor = "Red"
+    // Array Methods
+    console.log(collections.lenght)
+    collections.push("Ram","Aishat");
+    console.log(collections);
+    collections.unshift("batman")
+    console.log(collections);
+    collections.pop("Aishat")
+    console.log(collections);
+    collections.shift("")
+    console.log(collections);
+    collections.splice(3,1, "Adding")
+    console.log(collections);
+    collections.splice( 1,"Samuel", "Somethings")
+    console.log(collections);
+</script>

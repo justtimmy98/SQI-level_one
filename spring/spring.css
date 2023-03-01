@@ -1,0 +1,334 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(255,255,255);
+}
+nav{
+    padding: 15px 35px;
+    height: 78px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.navimg{
+    width: 30%;
+    height: 100%;
+}
+.navimg img{
+    width: 100%;
+    height: 100%;
+}
+.why:hover .ans{
+    display: block;
+}
+.y {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(25, 30, 30);
+    font-family: sans-serif;
+}
+.x{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(25, 30, 30);
+    font-family: sans-serif;
+    margin-left: 19px;
+    text-decoration: none;
+}
+.x:hover{
+    color: green;
+}
+.ans{
+    position: absolute;
+    top: 78px;
+    padding: 25px 30px 35px 30px;
+    border-radius: 10px;
+    width: 160px;
+    box-shadow: 0px -12px 12px 12px rgba(0, 0, 0, 0.048);
+    display: none;
+    z-index: 2;
+    background-color: white;
+}
+.ans a{
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(25, 30, 30);
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+.ans a:hover{
+    color: green;
+}
+.ans p{
+    font-size: 13px;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.part1{
+    background-color: lightgreen;
+    width: 100%;
+    height: 440px;
+    z-index: -1;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0px -2px rgba(0, 0, 0, 0.11);
+    padding-top: 32px;
+}
+.part1 h1{
+    color:#191E1E;
+    font-size: 60px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    width: 52%;
+    margin-left: 310px;
+    text-align: center;
+}
+.part1 p{
+    color:#333333;
+    font-size: 19.2px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 23px;
+}
+.part1 button{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 20px 35px;
+    color: #191e1ee7;
+    border: 2px solid #191E1E;
+    background-color: transparent;
+    margin-top: 32px;
+    background: linear-gradient(to left, rgba(0,0,0,0) 50%, black 50%) right;
+    background-size: 200%;
+    transition: all 0.15s ease-out;
+}
+.part1 button:hover{
+    background-position: left;
+    color: white;
+}
+.part2{
+    width: 100%;
+    height: 80px;
+    border-bottom: 2px solid rgb(235,242,242);
+}
+.part3{
+    padding: 50px 60px;
+}
+.part3 h2{
+    font-size: 38px;
+    color: #191E1E;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.boxes{
+    margin-top: 35px;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 750px;
+}
+.box{
+    width: 24%;
+    height: 350px;
+    border: 2px solid rgb(235,242,242);
+    padding: 30px 30px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+.box:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0  5px 5px rgba(0, 0, 0, 0.048);
+}
+.part3 h3{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.box:hover{
+    color: #6DB33F;
+    cursor: pointer;
+}
+.part3 p{
+    text-align: center;
+    /* width: 70px; */
+    font-size: 16px;
+    color: #333333;
+    font-family: sans-serif;
+    line-height: 27.2px;
+    margin-top: 16px;
+}
+.part4{
+    padding: 50px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.imc{
+    width: 1000px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0  5px 5px rgba(0, 0, 0, 0.048);
+}
+.tm{
+    width: calc(100%-1000px);
+    margin: 31.54px 0px;
+    margin-left: 70px;
+}
+.tm h2{
+    color: 38px;
+    font-size: 38px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.tm p{
+    color: #333333;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 27.2px;
+    width: 255px;
+    margin-top: 15px;
+}
+.part5{
+    padding: 50px 60px;
+    height: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.part5 img{
+    margin-left: 500px;
+}
+.part5 h3{
+    font-size: 24px;
+    color: #6DB33F;
+    line-height: 36px;
+    font-weight: 700;
+    font-family: sans-serif;
+    width: 740px;
+    text-align: center;
+    margin-left: 220px;
+}
+.wick{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+.tay p{
+    font-size: 14px;
+    color: #191E1E;
+    font-weight: 700;
+}
+ .a{
+    font-size: 16px;
+    color: #086DC3;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 2s;
+}
+.taya{
+    width: 80px;
+    height: 2.5px;
+    background-color: #086DC3;
+    transition: all 1s;
+    visibility: hidden;
+}
+a:hover .taya{
+    width: 70px;
+    visibility: visible;
+}
+.wickty{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    /* overflow: hidden; */
+}
+.part6{
+    height: 330px;
+    width: 100%;
+    background-color: rgb(235,242,242);
+    box-sizing: border-box;
+    overflow: hidden;    
+}
+.corner{
+    width: 90px;
+    height: 250px;
+    background-color: rgb(109,179,63);
+    position: relative;
+    top: -270px;
+    left: 1230px;
+    border-radius: 100% 0% 0 100%;
+    /* z-index: 1; */
+}
+.table2{
+    z-index: 2;
+    padding: 90px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.table2 h1{
+    color: #191E1E;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.table2 p{
+    color: #333333;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27.2px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ire{
+    height: 180px;
+    width: 70px;
+    position: relative;
+    left: 0px;
+}
+.part7{
+    padding: 50px 60px;
+}
+.table3{
+    width: 63%;
+    display: flex;
+}
+.table3 h3{
+    color: rgb(25,30,30);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.table3 h3:hover{
+    color: #6DB33F;
+    cursor: pointer;
+}
+.table3 a:hover{
+    color: #6DB33F;
+}
+.table3 a{
+    display: block;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #191E1E;
+    margin-top: 15px;
+}

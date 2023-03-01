@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.imp{
+    width: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    padding: 15px;
+    align-items: center;
+    border-radius: 7px;
+    display: flex;
+    margin-top: 20px;
+  }
+.imp input{
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+.rpg{
+    height: fit-content;
+    background-color: rgb(248,249,250);
+    padding: 80px;
+    border-radius: 10px;
+  }
+.tmm{
+    height: fit-content;
+    background-color:white;
+    padding: 80px;
+    border-radius: 10px;
+  }
+.th1{
+    font-size: 36px;
+    color: #202124;
+    font-family: sans-serif;
+    text-align: center;
+}
+.tmn{
+    flex-wrap: wrap;
+    padding: 45px;
+    box-sizing: border-box;
+    margin: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+.tmnimg{
+    width: 25%;
+    margin-top: 20px;
+}
+.boxes{
+    flex-wrap: wrap;
+     justify-content: space-around;
+     height: 100%;
+     width: 100%;
+  }
+.acdd{
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+    border-radius: none;
+}
+.acdd h2{
+    background-color: white;
+}
+.acdd button{
+    color: #1A73E8;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: 510;
+    padding: 30px 0;
+}
+.acdd button:focus{
+    background-color: white;
+}
+
+.acdd p{
+    font-size: 16px;
+    font-family: "roboto";
+    line-height: 26px;
+    color: #6A6E74;
+}
+#api{
+    box-sizing: border-box;
+    padding: 80px;
+    height: fit-content;
+}
+.box{
+    width: 28%;
+  }
+.boximg{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  }
+.hy{
+    color:#202124;
+    font-size: 19px;
+    line-height: 28px;
+    font-family: sans-serif;
+  }
+.pz{
+    color: #202124;
+    font-size: 16px;
+    font-family: "roboto";
+    line-height: 26px;
+  }
+  @media (max-width:420px){
+    .box{
+      min-width: 100%;
+    }
+    .rpg{
+      padding:30px;
+    }
+    .tmm{
+        padding: 20px;
+    }
+    .th1{
+        font-size: 25px;
+    }
+    .tmnimg{
+      width: 50%;
+  }
+  .tmn{
+    padding: 0px;
+  }
+  }
+  @media (max-width:780px){
+    .box{
+        width: 50%;
+    }
+    #api{
+      padding: 15px;
+    }
+  }

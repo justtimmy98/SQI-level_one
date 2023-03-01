@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Rowdies:wght@300&family=Secular+One&family=Ubuntu:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        body{
+            height: 700px;
+            width: 100%;
+        }
+        .translate{
+            width: 500px;
+            height: 500px;
+            background-color: aquamarine;
+            /* box-shadow: 0 0 20px 10px rebeccapurple; */
+            transition: all 5s;
+        }
+        .translate:hover{
+            transform: scale(1.2);
+        }
+        .rotate{
+            width: 300px;
+            height: 300px;
+            background-color: gray;
+            /* box-shadow: 0 0 20px 10px rebeccapurple; */
+            transition: all 5s;
+        }
+        .rotate:hover{
+            transform: rotate(270deg);
+            
+        }
+        main{
+            background-color: green;
+            width: 100%;
+            height: 100%;
+        }
+        .btn{
+            justify-content: center;
+            align-items: center;
+        }
+        .buton{
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: 'Roboto';
+            background-color: orangered;
+            padding: 10px 20px;
+            border-radius: 25px;
+            border: none;
+            box-shadow:5px 5px black;
+            transition: 0.5s;
+        }
+        .buton:hover{
+            transform: translate( 5px, 5px);
+            box-shadow: none;
+            background-color: black;
+        }
+        .bty{
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: 'Roboto';
+            background-color: orangered;
+            padding: 10px 20px;
+            border-radius: 25px;
+            border: none;
+            box-shadow:5px 5px white;
+            transition: 0.5s;
+        }
+        .bty:hover{
+            transform: translate( 5px, 5px);
+            box-shadow: none;
+            background-color: white;
+            color: orangered;
+        }
+        .secnd{
+            /* margin-top: 500px; */
+            padding: 100px 300px ;
+            background-color: grey;
+            box-sizing: border-box;
+        }
+        .one{
+            height: 500px;
+            width: 500px;
+            background-color: blue;
+            justify-content: center;
+            /* z-index: -1; */
+            padding: 50px 50px 50px 50px;
+            box-sizing: border-box;
+            transition: all 2s;
+        }
+        .second{
+            width: 400px;
+            height: 400px;
+            background-color: aqua;
+            position: absolute;
+            top: 850px;
+            left: 350px;
+            transition: all 2s;
+        }
+        .one:hover{
+           transform: scale(1.2);
+           transform: scale(1.1);
+        }
+        .second:hover{
+            transform: rotate(180deg);
+        }
+        .three{
+            width: 300px;
+            height: 300px;
+            background-color: aquamarine;
+            transition: all 3s;
+            position: absolute;
+            top: 900px;
+            left: 400px;
+        }
+        .three:hover{
+            transform: rotate(-270deg);
+        }
+        .div{
+            width: 0%;
+            height: 10%;
+            background-color: cyan;
+            transition: all 1s;
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <!-- <div class="translate">
+            <div class="rotate"></div>
+        </div> -->
+        <div class="btn">
+            <button class="buton">Tour the product</button>
+            <br>
+            <br>
+            <button class="bty">The Product</button>
+        </div>
+    </main>
+    <main class="secnd">
+        <div class="one">
+            
+        </div>
+        <div class="second">
+            
+        </div>
+        <div class="three"></div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+main{
+    background-color: #f3f3f3;
+    display: flex;
+}
+
+.one{
+    width: 76%;
+    height:100%;
+}
+.space{
+    width: 100%;
+    height: 16vh;
+    padding: 30px 0px;
+    padding-right: 15px;
+    text-align: right;
+    box-sizing: border-box;
+    font-size: 33px;
+    font-family: sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+}
+.one h4{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    margin-top: 18px;
+    margin-left: 20px;
+    font-family: sans-serif;
+}
+.space input{
+    height: 80px;
+    width: 40%;
+    border: none;
+    text-align: right;
+    
+    outline: none;
+    background-color: transparent;
+} 
+.btns{
+    width: 100%;
+    height: 75vh;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.btns button{
+    width: 24.5%;
+    padding: 26.5px 0px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #f8f8f8;
+    font-family: sans-serif;
+    margin-top: 7px;
+    font-size:14px;
+    border: 0.5px solid rgba(0, 0, 0, 0.103);
+}
+.btns button:focus{
+    background-color: rgba(0, 0, 0, 0.116);    
+}
+.uperbtn{
+    width: 100%;
+    height: fit-content;
+    padding: 0px 20px;
+}
+.uperbtn button{
+    padding: 12px 20px;
+    background-color: transparent;
+    border: none;
+    /* border-radius: 3px; */
+}
+.uperbtn button:hover{
+    background-color: rgba(0, 0, 0, 0.192);
+}
+.two{
+    width: 24%;
+    height: 100vh;
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+.two p{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 35px;
+}
+
+
+@media (max-width:500px) {
+    .two{
+        display:none;
+    }
+    .one{
+        width:100%;
+    }
+    .space input{
+        width: 100%;
+        height: 100px;
+    }
+    .btns button{
+        width: 23%;
+    }
+    .space{
+        height: 25vh;
+        padding: 0px;
+    }
+    body{
+        overflow: hidden;
+    }
+    .btns{
+        height: 60vh;
+        padding-bottom: 10px;
+    }
+}

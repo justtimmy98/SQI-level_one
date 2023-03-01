@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+    <script src="https://kit.fontawesome.com/8a67cb8ed8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main style="height:100%; width: 100%;">
+        <section class="one">
+            <h4>Standard</h4>
+            <div class="space" id="inpt">
+                <!-- <input type="text" > -->
+            </div>
+            <div class="uperbtn">
+                <button>MC</button>
+                <button>MR</button>
+                <button>M+</button>
+                <button>M-</button>
+                <button>MS</button>
+            </div>
+            <div class="btns">
+                <button>%</button>
+                <button >CE</button>
+                <button >C</button>
+                <button ><i class="fa fa-delete-left"></i></button>
+                <button >1/x</button>
+                <button > x²</button>
+                <button >√x</button>
+                <button >&#247;</button>
+                <button onclick="doa()" style="background-color:white;">7</button>
+                <button onclick="dob()" style="background-color:white;">8</button>
+                <button onclick="doc()" style="background-color:white;">9</button>
+                <button >×</button>
+                <button onclick="dod()" style="background-color:white;">4</button>
+                <button onclick="doe()" style="background-color:white;">5</button>
+                <button onclick="dof()" style="background-color:white;">6</button>
+                <button >-</button>
+                <button onclick="dog()" style="background-color:white;">1</button>
+                <button onclick="doh()" style="background-color:white;">2</button>
+                <button onclick="doi()" style="background-color:white;">3</button>
+                <button >+</button>
+                <button  style="background-color:white;">1</button>
+                <button  style="background-color:white;">0</button>
+                <button  style="background-color:white;">.</button>
+                <button  style="background-color: #1985cb;">=</button>
+            </div>
+        </section>
+        <section class="two">
+            <h3>History&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Moments</h3>
+            <div style="height:3px; width:30px; background-color: blue; margin-right: 15px;"></div>
+            <p>There's no history yet.</p>
+        </section>
+    </main>
+</body>
+
+</html>
+<script>
+    let num1 = 1;
+    let num2 = 2;
+    let num3 = 3;
+    let num4 = 4;
+    let num5 = 5;
+    let num6 = 6;
+    let num7 = 7;
+    let num8 = 8;
+    let num9 = 9;
+    function doa() {
+        document.getElementById("inpt").innerHTML += num7 ;
+    }
+    function dob() {
+        document.getElementById("inpt").innerHTML += num8;
+    }
+    function doc() {
+        document.getElementById("inpt").innerHTML += num9;
+    }
+    function dod() {
+        document.getElementById("inpt").innerHTML += num4;
+    }
+    function doe() {
+        document.getElementById("inpt").innerHTML += num5;
+    }
+    function dof() {
+        document.getElementById("inpt").innerHTML += num6;
+    }
+    function dog() {
+        document.getElementById("inpt").innerHTML += num1;
+    }
+    function doh() {
+        document.getElementById("inpt").innerHTML += num2;
+    }
+    function doi() {
+        document.getElementById("inpt").innerHTML += num3;
+    }
+</script>
