@@ -23,6 +23,9 @@
     padding: 80px;
     border-radius: 10px;
   }
+.gar:hover{
+  color: white;
+}
 .tmm{
     height: fit-content;
     background-color:white;
